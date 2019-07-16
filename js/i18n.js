@@ -1,6 +1,6 @@
 import i18n from 'i18next';
 import { reactI18nextModule } from 'react-i18next';
-import { Localization } from 'expo-localization';
+import * as Localization from 'expo-localization';
 
 const languageDetector = {
   type: 'languageDetector',
