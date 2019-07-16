@@ -14,6 +14,8 @@ i18n
   .use(languageDetector)
   .use(reactI18nextModule)
   .init({
+    lng: 'de',
+
     fallbackLng: 'en',
 
     resources: {
